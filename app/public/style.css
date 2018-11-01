@@ -1,0 +1,22 @@
+
+.jumbotron {
+    background-color:rgb(238,215,161)
+}
+body {
+    background-color: rgb(247,239,211);
+}
+h1, h2, h3, h4 {
+    color: rgb(205,139,98);
+}
+.btn {
+    background-color: rgb(238,215,161);
+}
+#submit {
+    background-color: rgb(238,215,161);
+}
+.custom-select {
+    background-color: rgb(238,215,161);
+}
+.form-control {
+    background-color: rgb(238,215,161) ;
+}
