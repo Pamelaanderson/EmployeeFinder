@@ -5,13 +5,13 @@ const employees = [
     "scores":[
         5,
         1,
-        4,
+        3,
         4,
         5,
-        1,
+        3,
         2,
         5,
-        4,
+        3,
         1
       ]
   },
@@ -21,13 +21,13 @@ const employees = [
     "scores":[
         1,
         1,
-        2,
-        4,
-        5,
-        1,
-        2,
         5,
         4,
+        5,
+        5,
+        2,
+        5,
+        5,
         1
       ]
   },
@@ -36,14 +36,14 @@ const employees = [
     "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Joffrey_Baratheon-Jack_Gleeson.jpg/220px-Joffrey_Baratheon-Jack_Gleeson.jpg",
     "scores":[
         5,
-        1,
+        3,
         6,
         4,
         5,
-        1,
+        3,
         2,
         5,
-        4,
+        3,
         1
       ]
   },
@@ -54,12 +54,12 @@ const employees = [
         5,
         1,
         7,
-        5,
+        1,
         5,
         7,
-        2,
+        1,
         5,
-        4,
+        1,
         1
       ]
   },
@@ -67,15 +67,15 @@ const employees = [
     "name":"Ramsay Bolton",
     "photo":"https://static.giantbomb.com/uploads/scale_small/27/273442/2755048-0758538589-Ramsa.jpg",
     "scores":[
-        5,
+        2,
         2,
         7,
         3,
         7,
         1,
-        2,
+        6,
         5,
-        4,
+        6,
         1
       ]
   },
@@ -85,14 +85,14 @@ const employees = [
     "scores":[
         5,
         1,
-        4,
+        5,
         7,
         4,
         7,
-        2,
+        5,
         5,
         4,
-        1
+        5
       ] 
   },
   {
@@ -102,26 +102,26 @@ const employees = [
         5,
         1,
         4,
-        7,
+        4,
         4,
         7,
-        2,
+        4,
         5,
         4,
-        1
+        4
       ]
   },
   { 
     "name":"Melisandre",
     "photo":"https://www.unilad.co.uk/wp-content/uploads/2016/04/Melisandre_02-up.jpg",
     "scores":[
-        5,
+        1,
         1,
         4,
         7,
         4,
         7,
-        2,
+        1,
         5,
         4,
         1
@@ -133,14 +133,14 @@ const employees = [
     "scores":[
         5,
         1,
-        4,
+        7,
         7,
         4,
         7,
         2,
         5,
         4,
-        1
+        7
       ]
   }
 ];
