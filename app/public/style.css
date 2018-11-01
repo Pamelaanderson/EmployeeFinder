@@ -20,3 +20,6 @@ h1, h2, h3, h4 {
 .form-control {
     background-color: rgb(238,215,161) ;
 }
+.footer {
+    text-align: center;
+}
