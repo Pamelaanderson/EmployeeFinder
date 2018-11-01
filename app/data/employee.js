@@ -1,7 +1,7 @@
 const employees = [
 {
-    "name":"Pam",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Jon Snow",
+    "photo":"http://www.nationmultimedia.com/img/news/2018/06/23/30348461/6a6620619d0a76809fc758bf0d7cf6fc-sld.jpeg",
     "scores":[
         5,
         1,
@@ -16,8 +16,8 @@ const employees = [
       ]
   },
   {
-    "name":"Sam",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Cersei Lannister",
+    "photo":"http://images5.fanpop.com/image/photos/30000000/Game-of-Thrones-game-of-thrones-30044793-300-450.jpg",
     "scores":[
         1,
         1,
@@ -32,8 +32,8 @@ const employees = [
       ]
   },
   {
-    "name":"Bob",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Joffery Baratheon",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Joffrey_Baratheon-Jack_Gleeson.jpg/220px-Joffrey_Baratheon-Jack_Gleeson.jpg",
     "scores":[
         5,
         1,
@@ -48,8 +48,8 @@ const employees = [
       ]
   },
   {
-    "name":"Pat",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Daenerys Targaryen",
+    "photo":"https://images-na.ssl-images-amazon.com/images/I/7159Onk2x8L._SY450_.jpg",
     "scores":[
         5,
         1,
@@ -64,8 +64,8 @@ const employees = [
       ]
   },
   {
-    "name":"Ben",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Ramsay Bolton",
+    "photo":"https://static.giantbomb.com/uploads/scale_small/27/273442/2755048-0758538589-Ramsa.jpg",
     "scores":[
         5,
         2,
@@ -80,8 +80,24 @@ const employees = [
       ]
   },
   {
-    "name":"Geoff",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Sansa Stark",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/7/74/SophieTurnerasSansaStark.jpg/220px-SophieTurnerasSansaStark.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        7,
+        4,
+        7,
+        2,
+        5,
+        4,
+        1
+      ] 
+  },
+  {
+    "name":"Arya Stark",
+    "photo":"https://www.unilad.co.uk/wp-content/uploads/2018/07/81bd7c505b41008406feccb1ec3ebc0e.jpg",
     "scores":[
         5,
         1,
@@ -94,5 +110,39 @@ const employees = [
         4,
         1
       ]
-  }];
+  },
+  { 
+    "name":"Melisandre",
+    "photo":"https://www.unilad.co.uk/wp-content/uploads/2016/04/Melisandre_02-up.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        7,
+        4,
+        7,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Arya Stark",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Jaime_Lannister-Nikolaj_Coster-Waldau.jpg/220px-Jaime_Lannister-Nikolaj_Coster-Waldau.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        7,
+        4,
+        7,
+        2,
+        5,
+        4,
+        1
+      ]
+  }
+];
+module.exports = employees;
   
