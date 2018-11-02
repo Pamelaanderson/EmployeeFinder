@@ -1,3 +1,4 @@
+// get the form ifo from the page, clears it, then send data 
 $(function() {
     const validateForm = function() {
         let isValid = true;
@@ -5,8 +6,6 @@ $(function() {
         //we ask jquery for a nodelist of inputs
         //we iterate over nodelist of inputs
         // we evaluate if input.val is...
-
-        
     $('input').each(function() {
             if( $(this).val() === '' ) {
                 isValid = false;
@@ -15,11 +14,12 @@ $(function() {
         return isValid;
     }
     const displayModal = function(data) {
- // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+ // grab form elements
         $('#match-name').text(data.name);
         $('#match-img').attr('src', data.photo);
 
-// toggles the modal from display 
+// toggles the modal from display
+// clear the form when submitting 
         $('#results-modal').modal('toggle');
     }
     const submit = function(e) {
@@ -44,9 +44,9 @@ $(function() {
 
                 ]
             };
-
+// sending the data in a post request
             $.post('/api/employees', userData, function(data) {
-                // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                // Grab the result from the post so that the best match's name and photo are displayed.
                        $('#match-name').text(data.name);
                        $('#match-img').attr('src', data.photo);
                
