@@ -2,9 +2,6 @@ $(function() {
     const validateForm = function() {
         let isValid = true;
 
-// Using jQuery's each method, loop through the inputs
-    // Sets isValid to false if any are empty
-
         //we ask jquery for a nodelist of inputs
         //we iterate over nodelist of inputs
         // we evaluate if input.val is...
