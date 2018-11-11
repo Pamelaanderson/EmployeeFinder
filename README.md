@@ -1,2 +1,13 @@
 # EmployeeFinder
-Compatibility-based "EmployeeFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+By: Pamela Anderson
+
+About
+A compatibility-based "Employee Finder" application that matches employees internally to identify who will be the most compatibale and who will work best together based upon certain criteria.  Additionally, this is a client-server applications with custom routing by the API and will be deployed to Heroku.
+
+Technologies Used
+CSS3, Bootstrap
+ES6 Javascript
+Node.js
+Express.js
+jQuery, AJAX
+Heroku for deploymentt
